@@ -87,5 +87,31 @@ body{
     width: 27%;
     justify-content: space-between;
 }
-    
+
+
+@media only screen and (max-width:600px){
+    .container{
+        width: 90%;
+    }
+    .container h1{
+        font-size: 2rem;
+    }
+    .name input{
+        width: 80%;
+    }
+    .display{
+        width: 90%;
+    }
+    .display input{
+        width: 80%;
+        padding: 0 10px;
+        font-size: 1rem;
+    }
+    .cont{
+        width: 90%;
+    }
+    .btn{
+       font-size: 0.7rem;
+    }
+}
    
